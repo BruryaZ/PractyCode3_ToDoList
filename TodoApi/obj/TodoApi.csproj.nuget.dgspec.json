@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Desktop\\תכנות\\Dot net\\פרויקטים בפרקטיקוד\\פרויקט שלישי\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\user1\\Desktop\\תכנות\\Dot net\\פרויקטים בפרקטיקוד\\פרויקט שלישי\\update\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Desktop\\תכנות\\Dot net\\פרויקטים בפרקטיקוד\\פרויקט שלישי\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\user1\\Desktop\\תכנות\\Dot net\\פרויקטים בפרקטיקוד\\פרויקט שלישי\\update\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Desktop\\תכנות\\Dot net\\פרויקטים בפרקטיקוד\\פרויקט שלישי\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\תכנות\\Dot net\\פרויקטים בפרקטיקוד\\פרויקט שלישי\\update\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\user1\\Desktop\\תכנות\\Dot net\\פרויקטים בפרקטיקוד\\פרויקט שלישי\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\תכנות\\Dot net\\פרויקטים בפרקטיקוד\\פרויקט שלישי\\update\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Desktop\\תכנות\\Dot net\\פרויקטים בפרקטיקוד\\פרויקט שלישי\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\תכנות\\Dot net\\פרויקטים בפרקטיקוד\\פרויקט שלישי\\update\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,13 +46,25 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Cors": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.3.0, )"
+              "version": "[8.0.2, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
