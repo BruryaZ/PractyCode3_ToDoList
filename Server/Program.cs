@@ -138,7 +138,6 @@ app.MapPut("/tasks/{id}", async (int id, MyTask updatedTask, ToDoDbContext conte
     var task = await context.Tasks.FindAsync(id);
     if (task is null) return Results.NotFound();
 
-    task.Name = updatedTask.Name; // Assuming there is a field named Name
     task.IsComplete = updatedTask.IsComplete; // Assuming there is a field named IsComplete
     context.Tasks.Update(task);
     await context.SaveChangesAsync();
